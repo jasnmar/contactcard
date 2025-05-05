@@ -1,24 +1,41 @@
-.card {
-  background: #000;
-  color: white;
-  width: 560px;
+html {
   margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  max-width: 500px;
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 3rem;
+  text-align: center;
+  color: #2E7AD3;
+  margin-block: 2.875rem;
+}
+
+main {
+  background: #F1F1F1;
+  padding: 1.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color:#104C90;
+}
+
+img {
+  display: block;
+  width: 100%;
+  margin-bottom: 1.5rem;
 }
 
 p {
-  font-size: 18px;
+  margin-block: .5rem;
+  font-size: 1rem;
 }
 
-.links {
-  margin-top: 2rem;
-}
-
-strong {
-  background: yellow;
-  color: black;
-  width: 50px;
+a {
+  font-weight: bold;
+  color: #FF8000;
 }
